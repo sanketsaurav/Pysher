@@ -21,6 +21,14 @@ class Channel(object):
         """
         self.event_callbacks[event_name].append((callback, args, kwargs))
 
+    def unbind(self, event_name, *args, **kwargs):
+        """Unbind an event
+
+        :param event_name: The name of the event to unbind.
+        :type event_name: str
+        """
+        self.event_callbacks.pop(event_name, None)
+
     def trigger(self, event_name, data):
         """Trigger an event on this channel.  Only available for private or
         presence channels
