@@ -19,7 +19,7 @@ setup(
     author="Nils Diefenbach",
     author_email="nlsdfnbch.foss@kolabnow.com",
     license="MIT",
-    url="https://github.com/nlsdfnbch/Pysher",
+    url="https://github.com/InscribeAI/Pysher",
     install_requires=requirements,
     packages=["pysher"],
     classifiers=[

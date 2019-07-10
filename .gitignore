@@ -4,3 +4,4 @@
 build
 /examples/need_delete.py
 launch.json
+.DS_Store
