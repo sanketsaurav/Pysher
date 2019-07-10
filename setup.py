@@ -10,7 +10,7 @@ def readme():
         return f.read()
 
 setup(
-    name="Pysher",
+    name="inscribe-Pysher",
     version=VERSION,
     description="Pusher websocket client for python, based on Erik Kulyk's PythonPusherClient",
     long_description=readme(),
